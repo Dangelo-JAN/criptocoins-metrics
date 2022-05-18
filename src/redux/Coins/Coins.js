@@ -6,9 +6,10 @@ const initialState = [];
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_COINS:
-      return action.payload.map((coins) => ({
-        ...coins,
-      }));
+      return [...coins, payload];
+      // return action.payload.map((coins) => ({
+      //   ...coins,
+      // }));
 
     default:
       return state;
