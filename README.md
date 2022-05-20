@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Get installed [Node](https://nodejs.org/)
+Get installed [Node](https://nodejs.org/) and [Git](https://git-scm.com/)
 ### Setup
 
 Using your terminal or comand line, run: `git clone https://github.com/Dangelo-JAN/criptocoins-metrics.git` comand
