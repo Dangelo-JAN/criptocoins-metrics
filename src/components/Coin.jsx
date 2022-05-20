@@ -9,12 +9,18 @@ const Coin = (props) => {
     symbol,
   } = props;
 
+  const handlerDetails = (id) => {
+    window.location.href = `details/${id}`;
+  };
+
   return (
     <>
       <div className="container-column">
         <div className="coin-container">
           <img className="coin-img" src={image} alt={name} />
-          <div className="container-column">
+          <button onClick={() => handlerDetails(id)}>-></button>
+        </div>
+        <div className="container-column">
             <span className="title">Name:</span>
             <span className="data">{name}</span>
             <div className="container">
@@ -22,7 +28,6 @@ const Coin = (props) => {
               <span className="data">{symbol}</span>
             </div>
           </div>
-        </div>
       </div>
     </>
   );
