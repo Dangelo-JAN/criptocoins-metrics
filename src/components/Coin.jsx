@@ -21,10 +21,8 @@ const Coin = (props) => {
           <button onClick={() => handlerDetails(id)}>-></button>
         </div>
         <div className="container-column">
-            <span className="title">Name:</span>
             <span className="data">{name}</span>
             <div className="container">
-              <span className="title">Symbol:</span>
               <span className="data">{symbol}</span>
             </div>
           </div>

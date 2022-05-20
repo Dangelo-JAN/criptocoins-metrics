@@ -10,7 +10,7 @@ const CoinsList = () => {
 
   useEffect(() => {
     if (!coins.lenght) dispatch(getCoins());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

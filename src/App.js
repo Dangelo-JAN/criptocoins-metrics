@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="details" element={<Details />} />
+        <Route exact path="details/:coin_id" element={<Details />} />
       </Routes>
     </>
   );
