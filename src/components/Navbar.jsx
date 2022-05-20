@@ -1,12 +1,9 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { getCoins } from '../redux/Coins/Coins';
+import React from 'react';
 
 const Navbar = () => {
   return (
     <>
-      <h1>Hello micronauts</h1>
-      <button type="button" onClick={(e) => e.preventDefault()}>Verificando la API</button>
+      <h1>Criptocoins Metrics</h1>
     </>
   );
 };
