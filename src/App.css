@@ -20,7 +20,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 .coin-img {
-  width: 20vw;
+  width: 35vw;
   margin: 0.5em;
   padding: 0.25em 0;
 }
@@ -44,9 +44,29 @@ li:nth-child(10) {
 .title {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
+  font-size: 1.5em;
+  padding-right: 0.5em;
+  text-align: right;
 }
 
 .data {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
+}
+
+.coin-button {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #4369b2;
+  border: solid 1px #fff;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.title-details {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-right: 0.5em;
 }

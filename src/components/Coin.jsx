@@ -18,13 +18,11 @@ const Coin = (props) => {
       <div className="container-column">
         <div className="coin-container">
           <img className="coin-img" src={image} alt={name} />
-          <button onClick={() => handlerDetails(id)}>-></button>
+          <button className="coin-button" onClick={() => handlerDetails(id)}>-></button>
         </div>
         <div className="container-column">
-            <span className="data">{name}</span>
-            <div className="container">
-              <span className="data">{symbol}</span>
-            </div>
+            <div className="title">{name}</div>
+            <div className="title">{symbol}</div>
           </div>
       </div>
     </>

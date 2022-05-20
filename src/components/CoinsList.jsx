@@ -6,7 +6,6 @@ import Coin from './Coin';
 const CoinsList = () => {
   const dispatch = useDispatch();
   const coins = useSelector((state) => state.coins);
-  console.log(coins);
 
   useEffect(() => {
     if (!coins.lenght) dispatch(getCoins());
