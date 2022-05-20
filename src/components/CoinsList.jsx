@@ -16,17 +16,12 @@ const CoinsList = () => {
     <>
       <ul className="container coins-list">
         {coins.map((coin) => (
-          <li>
+          <li key={coin.id}>
             <Coin
-              key={coin.id}
               id={coin.id}
               name={coin.name}
               image={coin.image}
-              price={coin.current_price}
               symbol={coin.symbol}
-              ranking={coin.market_cap_rank}
-              changePercetage={coin.ath_change_percentage}
-              spakLine={coin.sparkline_in_7d.price}
             />
           </li>
         ))}
