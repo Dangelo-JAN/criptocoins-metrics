@@ -33,7 +33,7 @@ Install dependencies using your terminal or comand line, run: `npm install` coma
 To run the app type your terminal or comand line `npm start` comand
 ### Run tests
 
-To run the tests type your terminal or comand line `npm start` comand
+To run the tests type your terminal or comand line `npm run test` comand
 ## Authors
 
 👤 **Dangelo Arrivillaga**
@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Henry Nawrocki Sztanski [hsztan](https://github.com/hsztan)
+- Henry Nawrocki Sztanski [@hsztan](https://github.com/hsztan)
 - Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) on Behance.
 
 ## 📝 License

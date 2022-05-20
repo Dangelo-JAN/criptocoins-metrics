@@ -19,24 +19,28 @@ const Details = () => {
 
   return (
     <>
+      <h1>ALL COIN STATS</h1>
       <div className="container-column">
-        <div className="coin-container">
+        <div className="coin-detail-container">
           <img className="coin-img" src={coin?.image} alt={coin?.name} />
           <div className="container-column">
-            <span className="title-details">Name:</span>
-            <span className="data">{coin?.name}</span>
-            <div className="container">
+            <div>
+              <span className="title-details">Name:</span>
+              <span className="data">{coin?.name}</span>
+            </div>
+            <div>
               <span className="title-details">Symbol:</span>
               <span className="data">{coin?.symbol}</span>
+            </div>
+            <div>
               <span className="title-details">Ranking:</span>
               <span className="data">{coin?.market_cap_rank}</span>
             </div>
           </div>
         </div>
-        <div>
+        <div className="stats-container">
           <span className="title-details">Price:</span>
           <span className="data">{coin?.current_price}</span>
-          <br />
           <span className="title-details">Change %:</span>
           <span className="data">{coin?.price_change_percentage_24h}</span>
         </div>
