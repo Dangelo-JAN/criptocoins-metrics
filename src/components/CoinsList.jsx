@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getCoins } from '../redux/Coins/Coins';
 import Coin from './Coin';
 
 const CoinsList = () => {
+  const [search, setSearch] = useState('');
   const dispatch = useDispatch();
   const coins = useSelector((state) => state.coins);
 
@@ -11,10 +12,13 @@ const CoinsList = () => {
     if (!coins.lenght) dispatch(getCoins());
   }, [dispatch]);
 
+  const filteredCoins = coins.filter((coin) => coin.name.toLowerCase().includes(search.toLocaleLowerCase()));
+
   return (
     <>
+      <input type="text" placeholder="Search Coin" onChange={(e) => setSearch(e.target.value)}></input>
       <ul className="container coins-list">
-        {coins.map((coin) => (
+        {filteredCoins.map((coin) => (
           <li key={coin.id}>
             <Coin
               id={coin.id}
