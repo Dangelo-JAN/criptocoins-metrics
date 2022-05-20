@@ -42,7 +42,7 @@ const Details = () => {
           <span className="title-details">Price:</span>
           <span className="data">{coin?.current_price || coins[0]?.current_price}</span>
           <span className="title-details">Change %:</span>
-          <span className="data">{coin?.price_change_percentage_24h || coins[0]?.price_change_percentage_24h}</span>
+          <span className={coin?.price_change_percentage_24h > 0 ? "price-up" : "price-down"}>{coin?.price_change_percentage_24h || coins[0]?.price_change_percentage_24h}</span>
         </div>
       </div>
     </>

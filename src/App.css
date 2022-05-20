@@ -48,6 +48,13 @@ li:nth-child(10) {
   text-align: right;
 }
 
+.coin-symbol {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  padding-right: 1em;
+  text-align: right;
+}
+
 .data {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
@@ -82,4 +89,18 @@ li:nth-child(10) {
   width: 100vw;
   text-align: center;
   padding: 0;
+}
+
+.price-up {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  margin-left: 0.5em;
+  color: #00ff27;
+}
+
+.price-down {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  margin-left: 0.5em;
+  color: #FF0000;
 }

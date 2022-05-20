@@ -22,7 +22,7 @@ const Coin = (props) => {
         </div>
         <div className="container-column">
             <div className="title">{name}</div>
-            <div className="title">{symbol}</div>
+            <div className="coin-symbol">{symbol}</div>
           </div>
       </div>
     </>
