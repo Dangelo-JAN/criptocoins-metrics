@@ -16,7 +16,9 @@ const CoinsList = () => {
 
   return (
     <>
-      <input type="text" placeholder="Search Coin" onChange={(e) => setSearch(e.target.value)}></input>
+      <div  className="input-container">
+        <input className="input-style" type="text" placeholder="Search Coin" onChange={(e) => setSearch(e.target.value)}></input>
+      </div>
       <ul className="container coins-list">
         {filteredCoins.map((coin) => (
           <li key={coin.id}>
