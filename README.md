@@ -33,7 +33,7 @@ Install dependencies using your terminal or comand line, run: `npm install` coma
 To run the app type your terminal or comand line `npm start` comand
 ### Run tests
 
-To run the tests type your terminal or comand line `npm run test` comand
+To run the tests type your terminal or comand line `npm test` comand
 ## Authors
 
 👤 **Dangelo Arrivillaga**
