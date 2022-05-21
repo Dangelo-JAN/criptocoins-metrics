@@ -11,12 +11,15 @@
 - Redux
 - Css
 
+## Live Demo
+
+You can see the live demo at here [heroku](https://criptocoins-metrics.herokuapp.com/)
 ## Getting Started
 
 **This is one of my best projects done at Microverse.**
 
-
-To get a local copy up and running follow these simple example steps.
+- To see my see my video decription yo can click [here](https://www.loom.com/share/401725e0cba74b5e90b9cbbc1d9ad0cb)
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
