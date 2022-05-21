@@ -1,14 +1,16 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { getCoins } from '../redux/Coins/Coins';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
-  return (
-    <>
-      <h1>Hello micronauts</h1>
-      <button type="button" onClick={(e) => e.preventDefault()}>Verificando la API</button>
-    </>
-  );
-};
+const Navbar = () => (
+  <>
+    <div className="container-nav">
+      <h1 className="page-title">Criptocoins Metrics</h1>
+      <div className="links-container">
+        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/details">Details</Link>
+      </div>
+    </div>
+  </>
+);
 
 export default Navbar;

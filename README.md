@@ -11,16 +11,19 @@
 - Redux
 - Css
 
+## Live Demo
+
+You can see the live demo at here [heroku](https://criptocoins-metrics.herokuapp.com/)
 ## Getting Started
 
 **This is one of my best projects done at Microverse.**
 
-
-To get a local copy up and running follow these simple example steps.
+- To see my see my video decription yo can click [here](https://www.loom.com/share/401725e0cba74b5e90b9cbbc1d9ad0cb)
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Get installed [Node](https://nodejs.org/)
+Get installed [Node](https://nodejs.org/) and [Git](https://git-scm.com/)
 ### Setup
 
 Using your terminal or comand line, run: `git clone https://github.com/Dangelo-JAN/criptocoins-metrics.git` comand
@@ -33,7 +36,7 @@ Install dependencies using your terminal or comand line, run: `npm install` coma
 To run the app type your terminal or comand line `npm start` comand
 ### Run tests
 
-To run the tests type your terminal or comand line `npm run test` comand
+To run the tests type your terminal or comand line `npm test` comand
 ## Authors
 
 👤 **Dangelo Arrivillaga**
