@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages renders correctly Details page renders correctly 1`] = `
+Array [
+  <h1>
+    ALL COIN STATS
+  </h1>,
+  <div
+    className="container-column"
+  >
+    <div
+      className="coin-detail-container"
+    >
+      <img
+        className="coin-img"
+      />
+      <div
+        className="container-column"
+      >
+        <div>
+          <span
+            className="title-details"
+          >
+            Name:
+          </span>
+          <span
+            className="data"
+          />
+        </div>
+        <div>
+          <span
+            className="title-details"
+          >
+            Symbol:
+          </span>
+          <span
+            className="data"
+          />
+        </div>
+        <div>
+          <span
+            className="title-details"
+          >
+            Ranking:
+          </span>
+          <span
+            className="data"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="stats-container"
+    >
+      <span
+        className="title-details"
+      >
+        Price:
+      </span>
+      <span
+        className="data"
+      />
+      <span
+        className="title-details"
+      >
+        Change %:
+      </span>
+      <span
+        className="price-down"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pages renders correctly Home page renders correctly 1`] = `
+Array [
+  <div
+    className="input-container"
+  >
+    <input
+      className="input-style"
+      onChange={[Function]}
+      placeholder="Search Coin"
+      type="text"
+    />
+  </div>,
+  <ul
+    className="container coins-list"
+  />,
+]
+`;
