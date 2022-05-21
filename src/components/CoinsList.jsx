@@ -12,12 +12,13 @@ const CoinsList = () => {
     if (!coins.lenght) dispatch(getCoins());
   }, [dispatch]);
 
-  const filteredCoins = coins.filter((coin) => coin.name.toLowerCase().includes(search.toLocaleLowerCase()));
+  const filteredCoins = coins.filter((coin) => coin.name
+    .toLowerCase().includes(search.toLocaleLowerCase()));
 
   return (
     <>
-      <div  className="input-container">
-        <input className="input-style" type="text" placeholder="Search Coin" onChange={(e) => setSearch(e.target.value)}></input>
+      <div className="input-container">
+        <input className="input-style" type="text" placeholder="Search Coin" onChange={(e) => setSearch(e.target.value)} />
       </div>
       <ul className="container coins-list">
         {filteredCoins.map((coin) => (
