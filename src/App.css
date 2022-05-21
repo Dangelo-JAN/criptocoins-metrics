@@ -102,7 +102,7 @@ li:nth-child(10) {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   margin-left: 0.5em;
-  color: #FF0000;
+  color: #f00;
 }
 
 .footer-style {
@@ -127,10 +127,6 @@ li:nth-child(10) {
 .container-nav {
   display: flex;
   justify-content: space-around;
-}
-
-.page-title {
-  width: 
 }
 
 .links-container {

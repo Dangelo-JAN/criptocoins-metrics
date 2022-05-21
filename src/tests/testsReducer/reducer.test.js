@@ -4,7 +4,7 @@ describe('Reducer tests', () => {
   it('should return the initial state', () => {
     expect(coinsReducer(undefined, {})).toBeTruthy();
   });
-  
+
   it('should handle GET_COINS', () => {
     expect(
       coinsReducer(undefined, {
@@ -13,4 +13,3 @@ describe('Reducer tests', () => {
     ).toBeTruthy();
   });
 });
-
